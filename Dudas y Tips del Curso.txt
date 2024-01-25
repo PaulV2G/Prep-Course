@@ -1,0 +1,32 @@
+-Para que corran los test del curso es necesario usar los sig. comandos:
+ *npm install
+ *npm test (nombre de la carpeta)
+Ejemplo: Si se quieren correr los archivos de la carpeta M5 puedes escribirlo asi:
+ *npm test M5T1.test.js
+
+
+-Para saber que tipo de dato es puedes usar TypeOf:
+ * return(typeOf(valor);
+Con esto leera el tipo de dato que es.
+
+-Para saber si un numero es entero puedes usar Number.isInteger(valor):
+ *if(Number.isInteger(valor)
+Con esto puedes evaluar si el valor es un entero o no
+
+        ***Primer duda.- COMO EVALUAR UNA FECHA EN JAVASCRIPT
+        10.js, 11.js
+
+-Para elevar un numero al cuadrado, puedes utilizar el siguiente metodo llamado Math.pow() como el siguiente ejemplo:
+
+        *return(Math.pow(num, 2));
+
+-Para redondear un numero al numero mas proximo puedes utilizar la funcion de Math.round() como el sig ejemplo:
+
+        *return(Math.round(num));
+
+-Para redondear un numero al proxmo numero hacia arriba puedes utilizar la funcio de Math.ceil() como el siguiente ejemplo:
+        *return(Math.ceil(num));
+
+-Para retornar un numero al azar entre 0 y 1, puedes utilizar la funcion de Math.random() como el siguiente ejemplo:
+
+        *return(Math.random(0,1));
