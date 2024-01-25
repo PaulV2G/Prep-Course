@@ -30,3 +30,19 @@ Con esto puedes evaluar si el valor es un entero o no
 -Para retornar un numero al azar entre 0 y 1, puedes utilizar la funcion de Math.random() como el siguiente ejemplo:
 
         *return(Math.random(0,1));
+
+
+**************************************Tips para las fechas*********************************************************
+
+-Para verificar si una fecha es invalida es necesario convertirla en String e indicarle alguna accion como a continuacion:
+        *if(fecha.toString() === "Invalid date")
+        return false
+Esto quiere decir que si la fecha que se ingresa es invalida entonces convertirla a String y mandar una accion
+
+Luego para verificar si la fecha se ingreso bien le dice con "instanceOf Date" para que se evaluen los puntos necesarios para ser valida
+
+if(fecha instanceOf Date){
+        return true;
+}else{
+        return false;
+}
