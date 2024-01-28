@@ -50,3 +50,11 @@ if(fecha instanceOf Date){
 ---Para poder comparar numeros es necesario convertirlos a String con la propiedad .toString(), como a continuacion:
 
         *if(num.toString().length === 3). Esto quiere decir si numero convertido a string es igual a 3 entonces regresa tal cosa
+
+
+-Forma de invertir una string: 
+        return argumento.split("").reverse().join("");
+
+-Forma de invertir un arreglo:
+        argumentoquetepaseelarreglo.reverse();
+        return(argumento);
